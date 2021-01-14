@@ -1,23 +1,16 @@
 import React from 'react'
 import "../Stylesheets/SocialFooter.css"
 
-export default class SocialFooter extends React.Component {
+import SocialLinks from '../Components/SocialLinks'
 
-    state = {
+function SocialFooter (){
 
-    }
-
-    componentDidMount(){
-
-    }
-
-
-    render(){
-        return (
-            <div className="social-footer">
-                <h5>... and finally the footer</h5>
-            </div>
-        )
-    }
-        
+    return (
+        <div className="social-footer">
+            <SocialLinks />
+        </div>
+    )
+ 
 }
+
+export default SocialFooter

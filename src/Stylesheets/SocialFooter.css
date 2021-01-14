@@ -5,4 +5,22 @@
     bottom: 0;
     width: 100%;
     text-align: center;
+    height: 70px;
+}
+
+.social-links {
+    /* height: 30px; */
+}
+
+.social-icon {
+    height: 40px;
+    padding-top: 15px;
+    margin-right: 35px;
+    margin-left: 35px;
+    filter:contrast(0.7);
+}
+
+img:hover {
+    filter:contrast(0.2);
+    cursor: pointer;
 }
