@@ -1,16 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './Stylesheets/App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello from V2</h1>
-      </header>
-    </div>
-  );
+import NavigationHeader from "./Containers/NavigationHeader"
+import MainContent from './Containers/MainContent';
+import SocialFooter from './Containers/SocialFooter'
+
+
+export default class App extends React.Component {
+
+  render(){
+    return(
+      <div className="App">
+        <NavigationHeader />
+        <MainContent />
+        <SocialFooter />
+      </div>
+    )
+  }
 }
-
-export default App;
