@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Stylesheets/NavigationHeader.css'
-
+import NavigationLinks from '../Components/NavigationLinks'
 
 export default class NavigationHeader extends React.Component {
 
@@ -16,7 +16,7 @@ export default class NavigationHeader extends React.Component {
     render(){
         return (
             <div className="navigation-header">
-                <h1>Hi</h1>
+                <NavigationLinks />
             </div>
         )
     }

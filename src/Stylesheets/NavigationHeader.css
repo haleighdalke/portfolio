@@ -3,5 +3,37 @@
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    width: 2000px; /* Full width */
+    white-space: nowrap;
 }
+
+
+.navigation-links ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navigation-links li {
+    list-style-type: none;
+    float: left;
+    font-weight: 800;
+    font-size: large;
+  }
+  
+  .navigation-links li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 0px 3px 80px;
+    text-decoration: none;
+  }
+  
+  .navigation-links li a:hover {
+    color: grey;
+  }
+
+  .active {
+    color: grey !important;
+  }
+  
