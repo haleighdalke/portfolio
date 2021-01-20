@@ -5,6 +5,7 @@ import NavigationHeader from "./Containers/NavigationHeader"
 import MainContent from './Containers/MainContent';
 import SocialFooter from './Containers/SocialFooter'
 import NotFound from './Components/NotFound'
+import Programming from './Containers/Programming'
 
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
@@ -20,7 +21,7 @@ export default class App extends React.Component {
           <Switch>
             <Route exact path='/' component={MainContent} />
             <Route path='/home' component={MainContent} />
-            <Route path='/programming' component={NotFound} />
+            <Route path='/programming' component={Programming} />
             <Route path='/photography' component={NotFound} />
             <Route path='/dance' component={NotFound} />
             <Route component={NotFound} />
