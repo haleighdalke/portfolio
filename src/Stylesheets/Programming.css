@@ -4,3 +4,29 @@
     /* padding-top: 55px;
     padding-bottom: 55px; */
 }
+
+.programming-content {
+    display: grid;
+    grid-template: 1fr / 5fr 50px 4fr;
+    /* border: 5px solid black; */
+
+}
+
+.projects {
+    grid-area: 1 / 1 / span 3 / span 1;
+    /* border: 5px solid green; */
+    height: fit-content;
+}
+
+.project-item {
+    margin: 50px;
+
+    position: relative;
+    height: 0;
+}
+
+.blogs {
+    grid-area: 1 / 3 / span 1 / span 1;
+    /* border: 5px solid red; */
+    height: fit-content;
+}
